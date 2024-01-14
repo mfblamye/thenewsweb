@@ -8,6 +8,7 @@
 @media screen and (max-width:1160px) {
     .footer__wrap {
         flex-direction: column;
+        text-align: center;
     }
 }
 
@@ -15,6 +16,7 @@
     .header__wrap {
         flex-direction: column;
         gap: 5px;
+        text-align: center;
     }
 }
 
@@ -31,9 +33,29 @@
     }
 }
 
+@media screen and (max-width:720px) {
+    .footer__list {
+        text-align: center
+    }
+}
+
 @media screen and (max-width:610px) {
     .header__nav-list {
         flex-direction: column;
         gap: 5px;
     }
 }
+@media screen and (max-width:610px) {
+    .header-list__image {
+        flex-direction: column;
+        gap: 5px;
+        display: flex;
+        align-items: center;
+    }
+}
+@media screen and (max-width:610px) {
+    .footer__list-item   {
+        display: flex;
+        justify-content: center;
+    }
+} 
